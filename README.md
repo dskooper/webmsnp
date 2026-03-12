@@ -5,7 +5,9 @@ This repository contains the Rust-based source code for the server.
 
 ## Servers
 As of right now, there is **1** website hosting this server:
-- https://webmsnp.kooper.online (hosted by me on my own machine, expect sudden downtimes as I will be using this to test out bugfixes or new features)
+- https://webmsnp.kooper.online (not 24/7, expect downtimes to be sudden and prolonged)
+
+Even so, it is highly recommended to host WebMSNP yourself!
 
 ## Compatibility
 This client is not just designed for mobile devices in mind, but specifically (at least) the WebKit version provided in iOS 6.
