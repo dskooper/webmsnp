@@ -22,13 +22,14 @@ Any browser from then on should run WebMSNP fine.[^1]
 - View contact's personal message
 - Change your own personal message
 
-## Todo (in descending order of priority
+## Todo (in descending order of priority)
+- [ ] Proper versioning system
 - [ ] Replace web app icon with something original (https://github.com/dskooper/webmsnp/issues/1)
 - [ ] See your username and personal message
-- [ ] Change your username and personal message
-- [ ] Allow users to *remove* contacts
+  - [ ] Change your username
+- [ ] Allow users to remove contacts
 - [ ] View profile pictures
-- [ ] Dark mode?
+- [ ] Dark mode
 
 ### List of "wontfix" features
 - Winks:
