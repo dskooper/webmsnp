@@ -1,18 +1,27 @@
-# WebMSNP
-WebMSNP is a lightweight web-based client for the MSNP instant messaging protocol!
+# iMSNP
+iMSNP is a lightweight web-based client for the MSNP instant messaging protocol!
 
 This repository contains the Rust-based source code for the server.
 
 ## Servers
+> [!NOTE]
+> If you are hosting your own instance of iMSNP, please let me know
 As of right now, there is **1** website hosting this server:
-- https://webmsnp.kooper.online (not 24/7, expect downtimes to be sudden and prolonged)
+- https://imsnp-staging.kooper.online (not 24/7, only for testing)
 
-Even so, it is highly recommended to host WebMSNP yourself!
+Even so, it is highly recommended to host iMSNP yourself!
 
 ## Compatibility
-This client is not just designed for mobile devices in mind, but specifically (at least) the WebKit version provided in iOS 6.
+This client is designed to work flawlessly on iOS 6's Safari/WebKit, with iOS 5 support coming soon...
 
-Any browser from then on should run WebMSNP fine.[^1]
+Any browser from then on should run iMSNP fine.
+
+### Unsupported browsers
+iMSNP was designed for legacy WebKit in mind, and therefore some browsers may not cooperate:
+- Opera Mini (untested)
+- Internet Explorer (untested)
+
+Issues will be closed as "wontfix" as its out of scope (this project was never made to support anything other than mobile browsers anyway).
 
 ## Features (besides core functionality)
 - Specify your own MSNP11-compatible server on login
@@ -23,9 +32,9 @@ Any browser from then on should run WebMSNP fine.[^1]
 - Change your own personal message
 
 ## Todo (in descending order of priority)
-- [ ] Proper versioning system
+- [ ] Proper versioning system (currently half-implemented)
 - [ ] Replace web app icon with something original (https://github.com/dskooper/webmsnp/issues/1)
-- [ ] See your username and personal message
+- [ ] See your current username and personal message
   - [ ] Change your username
 - [ ] Allow users to remove contacts
 - [ ] View profile pictures
@@ -33,9 +42,9 @@ Any browser from then on should run WebMSNP fine.[^1]
 
 ### List of "wontfix" features
 - Winks:
-  - Requires Adobe Flash which was never available on iOS[^2] and dropped from Android after Ice Cream Sandwich. <br>
+  - Requires Adobe Flash which was never available on iOS[^1] and dropped from Android after Ice Cream Sandwich. <br>
 - File transfers:
-  - Personally out of scope, WebMSNP is not supposed to be a feature-complete client (and also idk how to implement). <br>
+  - Personally out of scope, iMSNP is not supposed to be a feature-complete client (and also idk how to implement). <br>
     If you want to transfer files use something like [Litterbox](https://litterbox.catbox.moe)
 - Voice/video calling:
   - Very out of scope considering it probably wouldn't work on mobile devices (assuming I knew how to implement that in the first place)
@@ -64,7 +73,7 @@ Once installed, you can do the following:
 If successful, there should now be a `build-rel` folder containing an executable.
 
 ## Usage
-Once compiled, you can launch the server executable to immediately start hosting on 0.0.0.0 port 27677[^3]. <br>
+Once compiled, you can launch the server executable to immediately start hosting on 0.0.0.0 port 27677[^2]. <br>
 
 ## Credits/Thanks
 - [campos02](https://github.com/campos02) for creating the [MSNP11 SDK](https://github.com/campos02/msnp11-sdk) which this project uses
@@ -75,6 +84,5 @@ Once compiled, you can launch the server executable to immediately start hosting
 
 This project is open-source and provided under the GNU GPL v3 license: you can view the license contents [here](https://www.gnu.org/licenses/gpl-3.0.txt)
 
-[^1]: Internet Explorer 9 has been confirmed to have CSS compatibility issues - tread carefully!
-[^2]: Outside of apps such as Puffin Browser, which are no longer in development.
-[^3]: Make sure that this port is not blocked by your firewall or in use by another process.
+[^1]: Outside of apps such as Puffin Browser, which are no longer in development.
+[^2]: Make sure that this port is not blocked by your firewall or in use by another process.
