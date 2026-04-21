@@ -31,11 +31,10 @@ Issues will be closed as "wontfix" as its out of scope (this project was never m
 - View and change your own username, personal message and status (online, offline/invisible, away, etc.)
 - View contact's status and personal message
 
-## Todo (in descending order of priority)
-- [ ] Proper versioning system (currently half-implemented)
-- [x] See your current username and personal message
-  - [x] Change your username
-- [x] Allow users to remove contacts
+## Todo
+- [ ] Sending images (this is gonna be a pain to implement but hopefully it'll be worth it)
+- [ ] Proper versioning system **that's implemented into the program**
+  - [ ] Have iMSNP display a build version and complain if its not the latest
 - [ ] View profile pictures
 - [ ] Dark mode
 
