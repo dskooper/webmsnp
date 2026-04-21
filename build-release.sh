@@ -16,8 +16,8 @@ fi
 
 echo -e "\n\033[1;33mCreating release package...\033[0m"
 mkdir build-rel
-cp server/target/release/webmsnp build-rel
+cp server/target/release/imsnp build-rel
 cp -r server/static build-rel/static
-chmod +x build-rel/webmsnp
+chmod +x build-rel/imsnp
 
 echo Build completed successfully! Release package created at: build-rel/
