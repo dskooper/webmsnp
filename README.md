@@ -1,4 +1,5 @@
-# iMSNP
+<img width="128" alt="image" src="https://github.com/user-attachments/assets/ce40195c-753c-41da-b861-96ee03385b2c" /> <br>
+
 iMSNP is a lightweight web-based client for the MSNP instant messaging protocol!
 
 This repository contains the Rust-based source code for the server.
