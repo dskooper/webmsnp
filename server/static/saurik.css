@@ -676,34 +676,6 @@ fieldset>a>div>div>label.url {
   left:-0.0625em
 }
 
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('sysfont/HelveticaNeueRoman.otf') format('opentype');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('sysfont/HelveticaNeueMedium.otf') format('opentype');
-  font-weight: 500;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('sysfont/HelveticaNeueBold.otf') format('opentype');
-  font-weight: 700;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'Helvetica Neue';
-  src: url('sysfont/HelveticaNeueItalic.ttf') format('truetype');
-  font-weight: 400;
-  font-style: italic;
-}
-
 html,
 body,
 input,
